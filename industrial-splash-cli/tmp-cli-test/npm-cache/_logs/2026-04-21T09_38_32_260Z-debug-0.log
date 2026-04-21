@@ -1,0 +1,37 @@
+0 verbose cli C:\fnm\node-versions\v24.14.1\installation\node.exe C:\fnm\node-versions\v24.14.1\installation\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.14.1
+3 silly config load:file:C:\fnm\node-versions\v24.14.1\installation\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer\scripts\industrial-splash-cli\.npmrc
+5 silly config load:file:C:\Users\BruceWa1ne\.npmrc
+6 silly config load:file:C:\fnm\node-versions\v24.14.1\installation\etc\npmrc
+7 verbose title npm pack
+8 verbose argv "pack" "--dry-run" "--cache" "./tmp-cli-test/npm-cache" "--pack-destination" "./tmp-cli-test/pack"
+9 verbose logfile logs-max:10 dir:C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer\scripts\industrial-splash-cli\tmp-cli-test\npm-cache\_logs\2026-04-21T09_38_32_260Z-
+10 verbose logfile C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer\scripts\industrial-splash-cli\tmp-cli-test\npm-cache\_logs\2026-04-21T09_38_32_260Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 notice
+14 notice package: industrial-splash-cli@0.1.0
+15 notice Tarball Contents
+16 notice 2.7kB README.md
+16 notice 12.2kB cli.mjs
+16 notice 741B package.json
+16 notice 383B templates/branding.README.txt
+16 notice 485B templates/industrial-splash.config.json
+17 notice Tarball Details
+18 notice name: industrial-splash-cli
+19 notice version: 0.1.0
+20 notice filename: industrial-splash-cli-0.1.0.tgz
+21 notice package size: 5.8 kB
+22 notice unpacked size: 16.5 kB
+23 notice shasum: 71b01af51fe507e11d67a3aee7f46bc5338d91b5
+24 notice integrity: sha512-9SIgi7cwtMcav[...]JPemb5jG4lZ5w==
+25 notice total files: 5
+26 notice
+27 verbose cwd C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer\scripts\industrial-splash-cli
+28 verbose os Windows_NT 10.0.26200
+29 verbose node v24.14.1
+30 verbose npm  v11.11.0
+31 verbose exit 0
+32 info ok

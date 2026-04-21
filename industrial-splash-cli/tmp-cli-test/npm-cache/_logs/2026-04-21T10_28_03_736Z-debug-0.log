@@ -1,0 +1,58 @@
+0 verbose cli C:\fnm\node-versions\v24.14.1\installation\node.exe C:\fnm\node-versions\v24.14.1\installation\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.14.1
+3 silly config load:file:C:\fnm\node-versions\v24.14.1\installation\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer\.npmrc
+5 silly config load:file:C:\Users\BruceWa1ne\.npmrc
+6 silly config load:file:C:\fnm\node-versions\v24.14.1\installation\etc\npmrc
+7 verbose title npm exec industrial-splash --help
+8 verbose argv "exec" "--cache" ".\\scripts\\industrial-splash-cli\\tmp-cli-test\\npm-cache" "--yes" "--package" ".\\scripts\\industrial-splash-cli" "industrial-splash" "--" "--help"
+9 verbose logfile logs-max:10 dir:C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer\scripts\industrial-splash-cli\tmp-cli-test\npm-cache\_logs\2026-04-21T10_28_03_736Z-
+10 verbose logfile C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer\scripts\industrial-splash-cli\tmp-cli-test\npm-cache\_logs\2026-04-21T10_28_03_736Z-debug-0.log
+11 warn Unknown project config "strict-peer-dependencies". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+12 warn Unknown project config "auto-install-peers". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+13 warn Unknown project config "shamefully-hoist". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+14 silly logfile done cleaning log files
+15 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+16 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+17 silly idealTree buildDeps
+18 silly placeDep ROOT industrial-splash-cli@0.1.1 OK for:  want: file:../../../..
+19 silly reify moves {}
+20 silly audit bulk request { 'industrial-splash-cli': [ '0.1.1' ] }
+21 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 110ms
+22 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+22 verbose audit error     at C:\fnm\node-versions\v24.14.1\installation\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+22 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+22 verbose audit error     at async #getReport (C:\fnm\node-versions\v24.14.1\installation\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:275:19)
+22 verbose audit error     at async AuditReport.run (C:\fnm\node-versions\v24.14.1\installation\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:100:19)
+22 verbose audit error     at async Arborist.reify (C:\fnm\node-versions\v24.14.1\installation\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:253:24)
+22 verbose audit error     at async C:\fnm\node-versions\v24.14.1\installation\node_modules\npm\node_modules\libnpmexec\lib\with-lock.js:58:19 {
+22 verbose audit error   headers: [Object: null prototype] {
+22 verbose audit error     server: [ 'Tengine' ],
+22 verbose audit error     date: [ 'Tue, 21 Apr 2026 10:28:11 GMT' ],
+22 verbose audit error     'content-type': [ 'application/json' ],
+22 verbose audit error     'transfer-encoding': [ 'chunked' ],
+22 verbose audit error     connection: [ 'keep-alive' ],
+22 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+22 verbose audit error     via: [ 'kunlun10.cn5656[,404666]' ],
+22 verbose audit error     'timing-allow-origin': [ '*' ],
+22 verbose audit error     eagleid: [ '6f03589517767672917377292e' ],
+22 verbose audit error     'x-fetch-attempts': [ '1' ]
+22 verbose audit error   },
+22 verbose audit error   statusCode: 404,
+22 verbose audit error   code: 'E404',
+22 verbose audit error   method: 'POST',
+22 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk',
+22 verbose audit error   body: {
+22 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+22 verbose audit error   },
+22 verbose audit error   pkgid: undefined
+22 verbose audit error }
+23 silly audit error [object Object]
+24 silly audit report null
+25 verbose cwd C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer
+26 verbose os Windows_NT 10.0.26200
+27 verbose node v24.14.1
+28 verbose npm  v11.11.0
+29 verbose exit 0
+30 info ok

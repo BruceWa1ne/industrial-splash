@@ -1,0 +1,36 @@
+{
+  "name": "create-industrial-splash",
+  "version": "0.1.0",
+  "description": "Scaffold a standalone workspace for industrial-splash-cli.",
+  "author": "Stephen_zhou <ppooiut@outlook.com>",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "create-industrial-splash": "cli.mjs"
+  },
+  "files": [
+    "cli.mjs",
+    "README.md",
+    "LICENSE",
+    "templates"
+  ],
+  "keywords": [
+    "create",
+    "industrial",
+    "scaffold",
+    "splash",
+    "workspace"
+  ],
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node ./cli.mjs",
+    "pack:check": "npm pack --dry-run",
+    "release:check": "npm publish --dry-run --access public",
+    "publish:public": "npm publish --access public"
+  }
+}

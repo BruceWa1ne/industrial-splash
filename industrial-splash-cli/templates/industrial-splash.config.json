@@ -1,0 +1,26 @@
+{
+  "logoPath": "branding/logo.png",
+  "backgroundColor": "#FFFFFF",
+  "outputDir": "output",
+  "androidQualifier": "land",
+  "renderDefaults": {
+    "logoMaxWidthRatio": 0.5,
+    "logoMaxHeightRatio": 0.24,
+    "offsetX": 0,
+    "offsetY": 0
+  },
+  "targets": [
+    {
+      "id": "1280x800",
+      "label": "1280 x 800",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "id": "1920x1080",
+      "label": "1920 x 1080",
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}

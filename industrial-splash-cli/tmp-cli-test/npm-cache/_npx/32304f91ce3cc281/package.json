@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "industrial-splash-cli": "file:../../../.."
+  },
+  "_npx": {
+    "packages": [
+      "C:\\Users\\BruceWa1ne\\Desktop\\projects\\Industrial-Computer\\scripts\\industrial-splash-cli"
+    ]
+  }
+}

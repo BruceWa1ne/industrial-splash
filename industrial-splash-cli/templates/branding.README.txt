@@ -1,0 +1,7 @@
+请将源 logo PNG 放到当前目录，并命名为 `logo.png`，
+或者修改 `industrial-splash.config.json` 中的 `logoPath` 指向其他文件。
+
+建议：
+- 尽量使用透明背景的 logo PNG
+- 源图建议至少达到最终显示尺寸的 2 倍，避免缩放后发虚
+- 横向品牌 logo 可优先调整 `logoMaxWidthRatio`、`logoMaxHeightRatio`、`offsetX`、`offsetY`

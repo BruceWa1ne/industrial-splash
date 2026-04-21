@@ -1,0 +1,45 @@
+0 verbose cli C:\fnm\node-versions\v24.14.1\installation\node.exe C:\fnm\node-versions\v24.14.1\installation\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.14.1
+3 silly config load:file:C:\fnm\node-versions\v24.14.1\installation\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer\scripts\industrial-splash-cli\.npmrc
+5 silly config load:file:C:\Users\BruceWa1ne\.npmrc
+6 silly config load:file:C:\fnm\node-versions\v24.14.1\installation\etc\npmrc
+7 verbose title npm publish
+8 verbose argv "publish" "--dry-run" "--access" "public" "--cache" "./tmp-cli-test/npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer\scripts\industrial-splash-cli\tmp-cli-test\npm-cache\_logs\2026-04-21T09_39_28_081Z-
+10 verbose logfile C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer\scripts\industrial-splash-cli\tmp-cli-test\npm-cache\_logs\2026-04-21T09_39_28_081Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose publish [ '.' ]
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 warn publish npm auto-corrected some errors in your package.json when publishing.  Please run "npm pkg fix" to address these errors.
+15 warn publish errors corrected:
+15 warn publish "bin[industrial-splash]" script name cli.mjs was invalid and removed
+16 notice
+17 notice package: industrial-splash-cli@0.1.0
+18 notice Tarball Contents
+19 notice 2.7kB README.md
+19 notice 12.2kB cli.mjs
+19 notice 741B package.json
+19 notice 383B templates/branding.README.txt
+19 notice 485B templates/industrial-splash.config.json
+20 notice Tarball Details
+21 notice name: industrial-splash-cli
+22 notice version: 0.1.0
+23 notice filename: industrial-splash-cli-0.1.0.tgz
+24 notice package size: 5.8 kB
+25 notice unpacked size: 16.5 kB
+26 notice shasum: 71b01af51fe507e11d67a3aee7f46bc5338d91b5
+27 notice integrity: sha512-9SIgi7cwtMcav[...]JPemb5jG4lZ5w==
+28 notice total files: 5
+29 notice
+30 warn This command requires you to be logged in to https://registry.npmjs.org/ (dry-run)
+31 http fetch GET 404 https://registry.npmjs.org/industrial-splash-cli 427ms (cache skip)
+32 http fetch GET 404 https://registry.npmjs.org/industrial-splash-cli 98ms (cache skip)
+33 notice Publishing to https://registry.npmjs.org/ with tag latest and public access (dry-run)
+34 verbose cwd C:\Users\BruceWa1ne\Desktop\projects\Industrial-Computer\scripts\industrial-splash-cli
+35 verbose os Windows_NT 10.0.26200
+36 verbose node v24.14.1
+37 verbose npm  v11.11.0
+38 verbose exit 0
+39 info ok

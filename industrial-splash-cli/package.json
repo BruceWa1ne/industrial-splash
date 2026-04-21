@@ -1,0 +1,38 @@
+{
+  "name": "industrial-splash-cli",
+  "version": "0.1.1",
+  "description": "CLI for generating splash images for fixed-resolution industrial landscape displays.",
+  "author": "Stephen_zhou <ppooiut@outlook.com>",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "industrial-splash": "cli.mjs"
+  },
+  "files": [
+    "cli.mjs",
+    "README.md",
+    "templates"
+  ],
+  "keywords": [
+    "android",
+    "cli",
+    "industrial",
+    "splash",
+    "uni-app"
+  ],
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node ./cli.mjs",
+    "pack:check": "npm pack --dry-run",
+    "release:check": "npm publish --dry-run --access public",
+    "publish:public": "npm publish --access public"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}
